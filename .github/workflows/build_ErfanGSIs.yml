@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.28/miui_MIMAX3_20.4.28_db41efd95b_10.0.zip
+  ROM_URL: https://hugeota.d.miui.com/20.4.27/miui_TUCANA_20.4.27_abeb5b26f5_10.0.zip
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -48,9 +48,9 @@ jobs:
          run: |
               sudo chmod -R 777 ErfanGSIs
               cd ErfanGSIs
-              sudo bash setup.sh -a
-              sudo sed -i '7c AB=false' url2GSI.sh
-              sudo sed -i '8c Aonly=true' url2GSI.sh
+              sudo bash setup.sh -b
+              sudo sed -i '7c AB=true' url2GSI.sh
+              sudo sed -i '8c Aonly=false' url2GSI.sh
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME -a
        
