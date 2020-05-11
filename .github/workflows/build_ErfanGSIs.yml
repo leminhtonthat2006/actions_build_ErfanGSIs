@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/note9/8.1.0.0/cn/20200429154707/7705969e/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://ota-oversea-1256119282.file.myqcloud.com/DLT-H0/darklighter-ota-signed_by_xiaomi_b0335011a95df762b4a54710654e2394DLTR.zip
+  ROM_NAME: JoyUI
   TZ: Asia/Shanghai
 
 jobs:
