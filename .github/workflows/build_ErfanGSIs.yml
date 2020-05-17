@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ota-oversea-1256119282.file.myqcloud.com/DLT-H0/darklighter-ota-signed_by_xiaomi_b0335011a95df762b4a54710654e2394DLTR.zip
-  ROM_NAME: JoyUI
+  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%943/V2.45/NX629J-update.zip
+  ROM_NAME: Nubia
   TZ: Asia/Shanghai
 
 jobs:
