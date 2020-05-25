@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://cdn-test-ota.blackshark.com/SKW-A0/20200518104713-skywalker-deltaota_85c101c910e0ac8dd50d0293f59a3094.zip
+  ROM_URL: https://cdn-test-ota.blackshark.com/SKW-A0/20200511175308-skywalker-ota-signed_by_xiaomi_e096f43288470abd4f0e015c8d99ba8f.zip
   ROM_NAME: JoyUI
   TZ: Asia/Shanghai
 
