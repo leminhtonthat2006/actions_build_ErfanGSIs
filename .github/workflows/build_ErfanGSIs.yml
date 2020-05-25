@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://romdownload.nubia.com/%E7%BA%A2%E9%AD%943/V3.22/NX629J-update.zip
-  ROM_NAME: Generic
+  ROM_URL: https://cdn-test-ota.blackshark.com/SKW-A0/20200518104713-skywalker-deltaota_85c101c910e0ac8dd50d0293f59a3094.zip
+  ROM_NAME: JoyUI
   TZ: Asia/Shanghai
 
 jobs:
