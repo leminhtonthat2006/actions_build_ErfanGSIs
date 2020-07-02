@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bom.to/BHF2TG
-  ROM_NAME: MIUI
+  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v420a_v420aopen/e3782718c6cfcc9dfd0838a7ecc97216a6ef5e25.zip
+  ROM_NAME: Generic
   TZ: Asia/Shanghai
 
 jobs:
@@ -53,7 +53,12 @@ jobs:
               sudo sed -i '8c Aonly=false' url2GSI.sh
        - name: Download Stock Rom & Generate GSI
          run: sudo ./ErfanGSIs/url2GSI.sh $ROM_URL $ROM_NAME -b
-       
+
+       - name: Zip GSI  
+         run: |
+              mkdir final
+              zip -r final/GSI.zip /home/runner/work/actions_build_ErfanGSIs/actions_build_ErfanGSIs/ErfanGSIs/output/
+
        - name: Upload GSI to BitSend
          run: |
               curl -sL https://git.io/file-transfer | sh
