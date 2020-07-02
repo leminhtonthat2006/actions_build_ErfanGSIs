@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bigota.d.miui.com/20.4.27/miui_UMI_20.4.27_bceaa2c9de_10.0.zip
+  ROM_URL: https://bom.to/BHF2TG
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
