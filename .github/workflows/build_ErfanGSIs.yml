@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://android.googleapis.com/packages/ota-api/vsmart_v420a_v420aopen/e3782718c6cfcc9dfd0838a7ecc97216a6ef5e25.zip
+  ROM_URL: https://updates.aospa.co/oneplus6/pa-quartz-3-oneplus6-20200608.zip
   ROM_NAME: Generic
   TZ: Asia/Shanghai
 
